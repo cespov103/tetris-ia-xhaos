@@ -74,6 +74,7 @@ jobs:
                (así se reescribe el mismo comentario en cada edición en vez de crear uno nuevo).
 
             ## Plantilla del diagnóstico (Markdown)
+            Todo lo que comentes debe estar en formato Markdown que GitHub entienda (GitHub Flavored Markdown): encabezados `##`, listas, tablas, bloques de código con lenguaje (```js), `código en línea` y referencias a archivos/líneas.
             La primera línea debe ser exactamente `<!-- claude-triaje -->`. Luego, con estas secciones:
             - **Resumen**: el problema en pocas líneas.
             - **Clasificación**: tipo, área y prioridad elegidos, y por qué.
