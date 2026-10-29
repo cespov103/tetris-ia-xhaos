@@ -271,6 +271,8 @@ function loop(ts) {
     }
   }
   draw();
+  // Si la partida terminó durante este frame, no programar el siguiente
+  if (gameOver) return;
   animId = requestAnimationFrame(loop);
 }
 
